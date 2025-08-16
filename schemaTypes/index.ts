@@ -3,6 +3,7 @@ import post from './post.js'
 import author from './author.js'
 // import portfolio from './portfolio.js'
 import testimonia from './testimonia.js'
+import table from './table.js'
 
 //this is the port folio section here
 import project from './project'
@@ -20,6 +21,7 @@ export const schemaTypes = [
   project,
   projectTestimonial,
   testimonia,
+  table,
 ]
 export const schema: {types: SchemaTypeDefinition[]} = {
   types: [
@@ -32,5 +34,6 @@ export const schema: {types: SchemaTypeDefinition[]} = {
     webDetails,
     project,
     projectTestimonial,
+    table,
   ],
 }

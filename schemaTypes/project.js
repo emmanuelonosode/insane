@@ -23,6 +23,16 @@ export default defineType({
       validation: (Rule) => Rule.required(),
     }),
     defineField({
+      name: 'mainImage',
+      title: 'Hero Image',
+      type: 'image',
+      description: 'A stunning, high-quality image that represents the project.',
+      options: {
+        hotspot: true,
+      },
+      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
       name: 'client',
       title: 'Client',
       type: 'string',

@@ -8,6 +8,7 @@ export default defineCliConfig({
   /**
    * Enable auto-updates for studios.
    * Learn more at https://www.sanity.io/docs/cli#auto-updates
-   */
+  */
+  studioHost: 'bigbook',
   autoUpdates: true,
 })

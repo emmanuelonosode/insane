@@ -29,7 +29,7 @@ export default defineType({
     defineField({
       name: 'body',
       type: 'array',
-      of: [{type: 'block'}, {type: 'image', options: {hotspot: true}}],
+      of: [{type: 'block'}, {type: 'image', options: {hotspot: true}}, {type: 'table'}],
     }),
     defineField({
       name: 'author',

@@ -12,6 +12,21 @@ export default defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
+      name: 'projectType',
+      title: 'Project Type',
+      type: 'string',
+      options: {
+        list: [
+          {title: 'Web', value: 'web'},
+          {title: 'E-commerce Development', value: 'e-commerce-development'},
+          {title: 'Web Design and Development', value: 'web-design-and-development'},
+          {title: 'E-commerce Design and Development', value: 'e-commerce-design-and-development'},
+          {title: 'AI Automation & Workflow', value: 'ai-automation-and-workflow'},
+        ],
+      },
+      validation: (rule) => rule.required(),
+    }),
+    defineField({
       name: 'desc',
       type: 'text',
       title: 'Description',
