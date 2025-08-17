@@ -18,11 +18,11 @@
     "@sanity/vision": "^4.0.1",
     "react": "^19.1",
     "react-dom": "^19.1",
-    "sanity": "^4.0.1",
+    "sanity": "^4.4.1",
     "styled-components": "^6.1.18"
   },
   "devDependencies": {
-    "@cloudflare/wrangler": "^1.21.0",
+    "@cloudflare/wrangler": "^1.16.0",
     "@sanity/eslint-config-studio": "^5.0.2",
     "@types/react": "^19.1",
     "eslint": "^9.28",
