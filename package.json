@@ -5,11 +5,10 @@
   "main": "package.json",
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "sanity dev",
-    "start": "sanity start",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "npm run build && vite preview",
+    "deploy": "npm run build && wrangler deploy"
   },
   "keywords": [
     "sanity"
@@ -22,12 +21,14 @@
     "styled-components": "^6.1.18"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.11.5",
     "@cloudflare/wrangler": "^1.16.0",
     "@sanity/eslint-config-studio": "^5.0.2",
     "@types/react": "^19.1",
     "eslint": "^9.28",
     "prettier": "^3.5",
     "typescript": "^5.8",
+    "vite": "^7.1.2",
     "wrangler": "^4.30.0"
   },
   "prettier": {
