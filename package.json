@@ -21,14 +21,12 @@
     "styled-components": "^6.1.18"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "^1.11.5",
     "@sanity/eslint-config-studio": "^5.0.2",
     "@types/react": "^19.1",
     "eslint": "^9.28",
     "prettier": "^3.5",
     "typescript": "^5.8",
-    "vite": "^7.1.2",
-    "wrangler": "^4.30.0"
+    "vite": "^7.1.2"
   },
   "prettier": {
     "semi": false,
